@@ -109,6 +109,10 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+womam_env
+.womam_env
+womam_env/
+womam_env.bak/gi
 
 # Spyder project settings
 .spyderproject
