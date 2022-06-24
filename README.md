@@ -1,3 +1,4 @@
+
 # akhari_women_affair
 
 #### creating conda environment
@@ -23,3 +24,10 @@ git add file_name
 #### To create version/commit all changes by git: git commit -m "message"
 #### To send version/changes to github: git push -u origin main
 #### To check remote url: git remote -v
+
+BUILD DOCKER IMAGE
+...
+docker build -t <image_name>:<tagname>
+...
+not: Image name for docker must be lowercase
+...
