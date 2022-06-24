@@ -25,9 +25,14 @@ git add file_name
 #### To send version/changes to github: git push -u origin main
 #### To check remote url: git remote -v
 
-BUILD DOCKER IMAGE
+#### BUILD DOCKER IMAGE
 ...
-docker build -t <image_name>:<tagname>
+docker build -t <image_name>:<tagname> .           # (do not forget . at end of the command)
 ...
-not: Image name for docker must be lowercase
+##### not: Image name for docker must be lowercase
 ...
+##### To list docker image
+docker images
+##### Run docker image
+docker run -p 5000:5000 -e PORT=5000 <IMAGE ID> 
+######## FOR THIS PROJECT docker run -p 5000:5000 -e PORT=5000 957479239f98
